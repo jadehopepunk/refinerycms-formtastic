@@ -60,7 +60,7 @@ module Refinery
         end
 
         def partial_fieldset_body(form, tab)
-          content_tag(:div, :class => 'page_part', :id => 'images') do
+          content_tag(:div, :class => 'page_part', :id => tab_id(tab)) do
             render tab.partial, :f => form
           end
         end
