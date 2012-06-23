@@ -1,0 +1,5 @@
+en:
+  refinery:
+    plugins:
+      formtastics:
+        title: Formtastic
