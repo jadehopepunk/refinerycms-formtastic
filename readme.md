@@ -47,7 +47,13 @@ Yes. I've tried to style the formtastic forms to look identical to Refinery defa
 
 ## To install
 
-Add "refinerycms-formtastic" to your gemfile. There are no generators or migrations to run.
+Add to your Gemfile:
+
+```ruby
+gem 'refinerycms-formtastic'
+```
+
+There are no generators or migrations to run.
 
 ## Input types
 
@@ -70,14 +76,5 @@ refinery extensions (such as Pages, Blog, etc).
 ] %>
 ```
 It must be supplied with the form object, and an array of tabs. These tabs can be a symbol, in which case
-they simply display a Wymeditor field of that name, or a Refinery::Pages::Tab object, which basically
+they simply display a Wymeditor field of that name, or a `Refinery::Pages::Tab` object, which basically
 just defines a name and a partial.
-
-## How to build this extension as a gem
-
-    cd vendor/extensions/formtastic
-    gem build refinerycms-formtastic.gemspec
-    gem install refinerycms-formtastic.gem
-
-    # Sign up for a http://rubygems.org/ account and publish the gem
-    gem push refinerycms-formtastic.gem
