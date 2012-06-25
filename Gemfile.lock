@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    refinerycms-formtastic (1.0)
+    refinerycms-formtastic (1.0.1)
       formtastic (~> 2.2.1)
       refinerycms-core (~> 2.0.5)
 

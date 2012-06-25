@@ -53,9 +53,10 @@ module Refinery
 
         def editor_only_fieldset_body(form, tab)
           content_tag(:div, :class => 'page_part', :id => tab.to_s) do
-            form.inputs do
-              form.input tab, :as => :wymeditor
-            end
+            form.text_area tab, :rows => 20, :class => 'wymeditor widest'
+            # form.inputs do
+            #  form.input tab, :as => :wymeditor
+            # end
           end
         end
 
