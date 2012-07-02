@@ -69,4 +69,3 @@ module Refinery
   end
 end
 
-Refinery::AdminController.send(:helper, 'refinery/formtastic/page_tabs')
