@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.authors           = ["Craig Ambrose"]
   s.email             = %q{craig@craigambrose.com}
   s.name              = 'refinerycms-formtastic'
-  s.version           = '1.0.1'
+  s.version           = '1.0.2'
   s.description       = 'A rails engine which allows the use of Formtastic in the RefineryCMS backend.'
   s.date              = '2012-06-23'
   s.summary           = 'Use formtastic with Refinery CMS'
